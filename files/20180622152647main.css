@@ -1,0 +1,50 @@
+#root{
+    margin-left: 100px;
+    margin-right: 100px
+}
+
+.ticket-form-attachment-list {
+    width: 60vw;
+}
+
+.ticket-form-attachment {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 0.7em;
+    white-space: nowrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ticket-form-input {
+    width: 40vw;
+}
+
+.ticket-form-textarea {
+    width: 40vw;
+    max-width: 100vw;
+    min-width: 40vw;
+    display: inline-flex;
+}
+
+.ticket-form-comment-list-item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60vw;
+}
+.ticket-form-comment-input {
+    width: 40vw;
+    max-width: 100vw;
+    min-width: 40vw;
+}
+
+.message-header {
+    padding: 4px; 
+}
+
+.comment-message{
+    display: inline-flex;
+}
+
+.field > .file {
+    display: inline-flex;
+}
